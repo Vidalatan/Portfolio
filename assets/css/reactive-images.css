@@ -40,13 +40,14 @@
     border: 3px ridge #FFFFFA;
 }
 
-.dummy {
-    background-image: url();
+.aboutme {
+    background-image: url(../images/aboutme-png.png);
     background-size: cover;
 }
 
-.dummy:hover {
-    background-image: url();
+.aboutme:hover {
+    background-image: url(../images/aboutme-gif.gif);
+    background-position: center;
     border: 3px ridge #FFFFFA;
 }
 
