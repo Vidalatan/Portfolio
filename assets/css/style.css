@@ -4,10 +4,15 @@
     --darker-theme: #333138;
     --solid-theme: #000103;
     --pop-theme: #FF312E;
+    --opaque-overlay: rgba(45,45,45,.35)
 }
 
 * {
     box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -111,9 +116,9 @@ main section figure figcaption {
     color: var(--highlight-theme);
 }
 
-main section div div {
-    padding: 50px;
-    margin: 20px;
+.about-me-block {
+    margin: 2%;
+    padding: 1%;
     background-color: var(--dark-theme);
     display: flex;
     flex-flow: column nowrap;
@@ -121,7 +126,7 @@ main section div div {
     align-content: space-between;
 }
 
-main section div div p {
+.about-me-block p {
     font-size: x-large;
     text-align: justify;
     text-align-last: right;
@@ -173,15 +178,19 @@ footer a:hover {
 
 .deployed-projects a {
     margin: 1%;
-    padding: 1%;
     height: 400px;
     width: 600px;
+    border-radius: 5%;
+    text-decoration: none;
 }
 
 .deployed-projects div {
-    margin: .5%;
     height: 100%;
     width: 100%;
+}
+
+.deployed-projects div:hover {
+    background-color: var(--opaque-overlay);
 }
 
 .flex-1 {
@@ -245,7 +254,7 @@ footer a:hover {
         font-size: 1.5vw;
     }
 
-    main section div div p {
+    .about-me-block p{
         font-size: medium;
     }
 }

@@ -1,3 +1,9 @@
+:root {
+    --highlight-theme: #FFFFFA;
+    --opaque-content-back: rgba(10, 10, 10, .5);
+    --font-family-theme: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .reactive-image{
     background-size: cover;
     background-position: center;
@@ -5,27 +11,36 @@
 
 .hover-toggle:hover {
     background-position: center;
-    border: 3px ridge #FFFFFA;
+    border: 3px ridge var(--highlight-theme);
 }
 
-.portfolio-page {
-    background-image: url(../images/horiseon-png.png);
+:hover::after {
+    position: relative;
+    color: var(--highlight-theme);
+    font-size: large;
+    font-family: var(--font-family-theme);
+    top: 50%;
+    background-color: var(--opaque-content-back);
+    padding: 1%;
+    border-radius: 5%;
+    
 }
 
-.portfolio-page:hover {
-    background-image: url(../images/horiseon-gif.gif);
 
-}
 
 .horiseon {
     background-image: url(../images/horiseon-png.png);
-
 }
 
 .horiseon:hover {
     background-image: url(../images/horiseon-gif.gif);
-
 }
+
+.horiseon-content:hover::after {
+    content: "Horiseon Webpage";
+}
+
+
 
 .metapets {
     background-image: url(../images/metapets-png.png);
@@ -37,6 +52,11 @@
 
 }
 
+.metapets-content:hover::after {
+    content: "MetaPets Webpage";
+}
+
+
 .aboutme {
     background-image: url(../images/aboutme-png.png);
 
@@ -46,6 +66,11 @@
     background-image: url(../images/aboutme-gif.gif);
 
 }
+
+.aboutme-content:hover::after {
+    content: "About Me Webpage";
+}
+
 
 .dummy {
     background-image: url();
