@@ -14,5 +14,7 @@ understanding of web-development
 ## Finished Product
 
 ![Full Webpage Screenshot](./assets/images/portfolio.png)
+
 Link to [Portfolio](https://vidalatan.github.io/Mini-project/)
+
 Link to [Code Repository](https://github.com/Vidalatan/Mini-project)
