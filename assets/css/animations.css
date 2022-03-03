@@ -1,0 +1,43 @@
+@keyframes content-ease-in-left {
+    from {transform: translateX(-105%);}
+    to {transform: translateX(0);}
+}
+
+@keyframes content-ease-in-right {
+    from {transform: translateX(105%);}
+    to   {transform: translateX(0);}
+}
+
+.ani-h1-ease-in {
+    animation: content-ease-in-left 1s;
+}
+
+.ani-navbar-ease-in {
+    animation: content-ease-in-right 1s;
+}
+
+.ani-main-section-ease-left {
+    animation: content-ease-in-left 2s;
+}
+
+.ani-main-section-ease-right {
+    animation: content-ease-in-right 2s;
+}
+
+@keyframes fade-in {
+    from {opacity: 0;}
+    to   {opacity: 100%;}
+}
+
+.ani-fade-in-1 {
+    animation: fade-in 1s;
+}
+.ani-fade-in-2 {
+    animation: fade-in 2s;
+}
+.ani-fade-in-3 {
+    animation: fade-in 3s;
+}
+.ani-fade-in-4 {
+    animation: fade-in 4s;
+}

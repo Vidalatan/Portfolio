@@ -119,10 +119,10 @@ main section div div {
     flex-flow: column nowrap;
     justify-content: center;
     align-content: space-between;
-    font-size: x-large;
 }
 
 main section div div p {
+    font-size: x-large;
     text-align: justify;
     text-align-last: right;
 }
@@ -243,5 +243,9 @@ footer a:hover {
 
     nav li a {
         font-size: 1.5vw;
+    }
+
+    main section div div p {
+        font-size: medium;
     }
 }
