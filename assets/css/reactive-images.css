@@ -1,87 +1,82 @@
-.reactive-image-a{
-    width: 100%;
-    height: 100%;
+.reactive-image{
+    background-size: cover;
+    background-position: center;
 }
 
-.hover-border:hover {
+.hover-toggle:hover {
+    background-position: center;
     border: 3px ridge #FFFFFA;
 }
 
 .portfolio-page {
     background-image: url(../images/horiseon-png.png);
-    background-size: cover;
 }
 
 .portfolio-page:hover {
     background-image: url(../images/horiseon-gif.gif);
-    background-position: center;
-    border: 3px ridge #FFFFFA;
+
 }
 
 .horiseon {
     background-image: url(../images/horiseon-png.png);
-    background-size: cover;
+
 }
 
 .horiseon:hover {
     background-image: url(../images/horiseon-gif.gif);
-    background-position: center;
-    border: 3px ridge #FFFFFA;
+
 }
 
 .metapets {
     background-image: url(../images/metapets-png.png);
-    background-size: cover;
+
 }
 
 .metapets:hover {
     background-image: url(../images/metapets-gif.gif);
-    background-position: center;
-    border: 3px ridge #FFFFFA;
+
 }
 
 .aboutme {
     background-image: url(../images/aboutme-png.png);
-    background-size: cover;
+
 }
 
 .aboutme:hover {
     background-image: url(../images/aboutme-gif.gif);
-    background-position: center;
-    border: 3px ridge #FFFFFA;
+
 }
 
 .dummy {
     background-image: url();
-    background-size: cover;
+
 }
 
 .dummy:hover {
     background-image: url();
-    border: 3px ridge #FFFFFA;
+
 }
 
 .dummy {
     background-image: url();
-    background-size: cover;
+
 }
 
 .dummy:hover {
     background-image: url();
-    border: 3px ridge #FFFFFA;
+
 }
 
 .dummy {
     background-image: url();
-    background-size: cover;
+
 }
 
 .dummy:hover {
     background-image: url();
-    border: 3px ridge #FFFFFA;
+
 }
 
 .placeholder {
     background-image: url(https://via.placeholder.com/600x400);
-    background-size: cover;
 }
