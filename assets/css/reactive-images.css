@@ -27,6 +27,24 @@
 
 
 
+.capstone-project {
+    background-image: url(../images/optical-background.png);
+}
+
+.capstone-project:hover {
+    /* no gif avail for this project */
+}
+
+.capstone-project-content:hover {
+    background-color: var(--opaque-overlay);
+}
+
+.capstone-project-content:hover::after {
+    content: "Python Optical Calculator";
+}
+
+
+
 .horiseon {
     background-image: url(../images/horiseon-png.png);
 }
