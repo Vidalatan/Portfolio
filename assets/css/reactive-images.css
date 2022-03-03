@@ -23,7 +23,6 @@
     background-color: var(--opaque-content-back);
     padding: 1%;
     border-radius: 5%;
-    
 }
 
 
@@ -44,12 +43,10 @@
 
 .metapets {
     background-image: url(../images/metapets-png.png);
-
 }
 
 .metapets:hover {
     background-image: url(../images/metapets-gif.gif);
-
 }
 
 .metapets-content:hover::after {
@@ -57,14 +54,13 @@
 }
 
 
+
 .aboutme {
     background-image: url(../images/aboutme-png.png);
-
 }
 
 .aboutme:hover {
     background-image: url(../images/aboutme-gif.gif);
-
 }
 
 .aboutme-content:hover::after {
@@ -72,35 +68,6 @@
 }
 
 
-.dummy {
-    background-image: url();
-
-}
-
-.dummy:hover {
-    background-image: url();
-
-}
-
-.dummy {
-    background-image: url();
-
-}
-
-.dummy:hover {
-    background-image: url();
-
-}
-
-.dummy {
-    background-image: url();
-
-}
-
-.dummy:hover {
-    background-image: url();
-
-}
 
 .placeholder {
     background-image: url(https://via.placeholder.com/600x400);

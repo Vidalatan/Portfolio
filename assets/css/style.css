@@ -23,6 +23,7 @@ body {
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
+    width: 100%;
 }
 
 img {
@@ -99,6 +100,14 @@ main section {
     margin: 2%;
 }
 
+main section div figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    margin: 2%;
+}
+
 main section h3 {
     text-align: center;
     font-size: xx-large;
@@ -117,7 +126,7 @@ main section figure figcaption {
 }
 
 .about-me-block {
-    margin: 2%;
+    margin: 1%;
     padding: 1%;
     background-color: var(--dark-theme);
     display: flex;
@@ -150,21 +159,47 @@ footer {
     display: flex;
     flex-flow: column nowrap;
     width: 100%;
+    height: 25%;
 }
 
 footer p {
     padding-bottom: 1%;
 }
 
-footer a{
-    border-top: 2px solid var(--highlight-theme);
-    color: var(--highlight-theme);
-    text-decoration: none;
-}
-
 footer a:hover {
     color: var(--solid-theme);
     background-color: var(--highlight-theme);
+}
+
+.footerbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.footerbar * {
+    max-height: 32px;
+    margin: 10px;
+}
+
+.footerbar-icons {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    margin: 0;
+    padding: 10px;
+}
+
+.footerbar-icons * {
+    margin: 0;
+}
+
+#footer-to-top{
+    border-top: 2px solid var(--highlight-theme);
+    color: var(--highlight-theme);
+    text-decoration: none;
 }
 
 .deployed-projects {
@@ -256,5 +291,9 @@ footer a:hover {
 
     .about-me-block p{
         font-size: medium;
+    }
+
+    .about-me-small {
+        flex-flow: column nowrap;
     }
 }
