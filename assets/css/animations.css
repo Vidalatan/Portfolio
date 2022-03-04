@@ -1,26 +1,28 @@
+/* Animation to move something from off screen left into it's default position */
 @keyframes content-ease-in-left {
     from {transform: translateX(-105%);}
     to {transform: translateX(0);}
 }
 
+/* Animation to move something from off screen right into it's default position */
 @keyframes content-ease-in-right {
     from {transform: translateX(105%);}
     to   {transform: translateX(0);}
 }
 
-.ani-h1-ease-in {
+.ani-ease-left-1 {
     animation: content-ease-in-left 1s;
 }
 
-.ani-navbar-ease-in {
+.ani-ease-right-1 {
     animation: content-ease-in-right 1s;
 }
 
-.ani-main-section-ease-left {
+.ani-ease-left-2 {
     animation: content-ease-in-left 2s;
 }
 
-.ani-main-section-ease-right {
+.ani-ease-right-2 {
     animation: content-ease-in-right 2s;
 }
 

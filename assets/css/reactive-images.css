@@ -4,16 +4,19 @@
     --font-family-theme: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Formating for images that will react to hovering */
 .reactive-image{
     background-size: cover;
     background-position: center;
 }
 
+/* Default hover changes */
 .hover-toggle:hover {
     background-position: center;
     border: 3px ridge var(--highlight-theme);
 }
 
+/* Position and formating for reactive content titles */
 :hover::after {
     position: relative;
     color: var(--highlight-theme);
@@ -26,7 +29,7 @@
 }
 
 
-
+/* Capstone */
 .capstone-project {
     background-image: url(../images/optical-background.png);
 }
@@ -44,7 +47,7 @@
 }
 
 
-
+/* Smaller project 1 */
 .horiseon {
     background-image: url(../images/horiseon-png.png);
 }
@@ -58,7 +61,7 @@
 }
 
 
-
+/* Smaller project 2 */
 .metapets {
     background-image: url(../images/metapets-png.png);
 }
@@ -72,7 +75,7 @@
 }
 
 
-
+/* Smaller project 3 */
 .aboutme {
     background-image: url(../images/aboutme-png.png);
 }
@@ -85,6 +88,14 @@
     content: "About Me Webpage";
 }
 
+
+/* Smaller project 4 */
+
+/* Smaller project 5 */
+
+/* Smaller project 6 */
+
+/* Smaller project 7 */
 
 
 .placeholder {
